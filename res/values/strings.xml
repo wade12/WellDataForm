@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Well Data Form</string>
+    <string name="display">Submitted Well Data</string>
+    <string name="app_name">App Name</string>
+    <string name="wellID">Well ID</string>
+    <string name="flowRate">Flow Rate</string>
+    <string name="oilTankLevel">Oil Tank Level</string>
+    <string name="waterTankLevel">Water Tank Level</string>
+    <string name="submit">Submit</string>
+</resources>

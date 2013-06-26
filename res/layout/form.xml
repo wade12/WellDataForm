@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <TextView
+        android:id="@+id/wellIDText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="35dp"
+        android:textSize="30sp"
+        android:textColor="#00ff00"
+        android:text="@string/wellID" />
+    
+    <EditText
+        android:id="@+id/wellID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/wellIDText"
+        android:ems="15"
+        android:inputType="text" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/flowRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wellIDText"
+        android:layout_below="@+id/wellIDText"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="#00ff00"
+        android:text="@string/flowRate" />
+    
+    <EditText
+        android:id="@+id/flowRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/flowRateText"
+        android:ems="15"
+        android:inputType="text" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/oilTankLevelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flowRateText"
+        android:layout_below="@+id/flowRateText"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="#00ff00"
+        android:text="@string/oilTankLevel" />
+    
+    <EditText
+        android:id="@+id/oilTankLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/oilTankLevelText"
+        android:ems="15"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/waterTankLevelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/oilTankLevelText"
+        android:layout_below="@+id/oilTankLevel"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="#00ff00"
+        android:text="@string/waterTankLevel" />
+ 
+    <EditText
+        android:id="@+id/waterTankLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/waterTankLevelText"
+        android:ems="15"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="#ff0000"
+        android:background="#00ff00"
+        android:textSize="40sp"
+        android:text="@string/submit" />
+    
+</RelativeLayout>
